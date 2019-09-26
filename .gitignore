@@ -4,7 +4,3 @@
 *.css.map
 *.sass.map
 *.scss.map
-
-# COMPILED FILES
-
-assets/
