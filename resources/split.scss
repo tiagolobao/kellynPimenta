@@ -198,14 +198,14 @@ body.page-template-page-fullsingle-split {
             transition-duration: 0.5s;
     border-bottom: 1px dotted #848d96; }
     .split-bio a:hover {
-      color: #CA486d;
+      color: #923621;
       -webkit-transition-duration: 0.1s;
               transition-duration: 0.1s;
-      border-bottom: 1px dotted #CA486d; }
+      border-bottom: 1px dotted #923621; }
 
 .split-lists .split-list {
   width: 49%;
-  display: inline-block;
+  display: inline-grid;
   margin-bottom: 40px; }
   @media (max-width: 500px) {
     .split-lists .split-list {
@@ -222,15 +222,21 @@ body.page-template-page-fullsingle-split {
   .split-lists .split-list ul li {
     font-size: 16px;
     line-height: 40px;
-    margin-bottom: 12px; }
-    .split-lists .split-list ul li a {
+    margin-bottom: 12px;
+  }
+  .split-lists .split-list ul li {
       color: #848d96;
       -webkit-transition-duration: 0.5s;
-              transition-duration: 0.5s; }
-      .split-lists .split-list ul li a:hover {
-        color: #CA486d;
-        -webkit-transition-duration: 0.1s;
-                transition-duration: 0.1s; }
+              transition-duration: 0.5s;
+  }
+  .split-lists .split-list ul li:hover {
+    padding-left: 10px;
+    color: #CCC;
+    cursor: pointer;
+    background-color: #111111;
+    -webkit-transition-duration: 0.1s;
+            transition-duration: 0.1s;
+  }
 
 .split-credit {
   opacity: 0.4; }
@@ -293,5 +299,35 @@ img.logo-img{
 
 
   /* Hover for social media */
+  li#wpp-btn:hover {
+    color: #25d366;
+  }
+  li#email-btn:hover {
+    color: #3e65cf;
+  }
+  li#insta-btn:hover {
+    color: #e1306c;
+  }
 
-  . fa-whatsapp
+
+/* Camera */
+
+figure.pic {
+  text-align: center;
+  font-size: 18px;
+  -webkit-transform : rotate(-10deg);
+  -webkit-transition-duration: 0.1s;
+          transition-duration: 0.1s;
+  z-index: 1;
+}
+
+figure.pic img{
+  width: 135px;
+}
+
+figure.pic:hover {
+  -webkit-transform: scale(1.1,1.1);
+  -webkit-transition-duration: 0.6s;
+          transition-duration: 0.6s;
+  z-index: 20;
+}
