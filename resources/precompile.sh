@@ -1,6 +1,6 @@
 #!/bin/bash
 echo precompiling...
-sass split.scss:../assets/split.css
+sass style.scss:../assets/style.css
 tsc script.ts
 rm ../assets/script.js
 mv script.js ../assets/script.js
