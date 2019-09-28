@@ -253,6 +253,7 @@ video.video {
   width: 100%;
   height: 100%; }
 
+/*-- Mixin templates --*/
 /* -- Customizing template -- */
 .split-lists .split-list ul li {
   font-size: 16px;
@@ -304,5 +305,106 @@ figure.pic {
     -webkit-transition-duration: 0.6s;
     transition-duration: 0.6s;
     z-index: 20; }
+
+/* makeup-pallete */
+/* Object style */
+div#gallery {
+  position: relative;
+  margin: auto;
+  width: 130px;
+  height: 130px;
+  cursor: pointer; }
+  div#gallery div.makeup-pallete#box {
+    background: black;
+    background: linear-gradient(-45deg, black 0%, #151515 39%, black 65%, #332a23 100%);
+    position: relative;
+    width: 130px;
+    height: 130px;
+    border-radius: 10px;
+    border-right: solid 3px #7b695d;
+    border-bottom: solid 3px #7b695d;
+    -webkit-transform: rotate(4deg);
+    -ms-transform: rotate(4deg);
+    transform: rotate(4deg);
+    -moz-transition: all 1s ease;
+    -o-transition: all 1s ease;
+    -webkit-transition: all 1s ease;
+    transition: all 1s ease; }
+    div#gallery div.makeup-pallete#box:hover {
+      -webkit-transform: rotate(0deg);
+      -ms-transform: rotate(0deg);
+      transform: rotate(0deg);
+      border-right: none;
+      border-bottom: none;
+      -webkit-box-shadow: -10px -10px 43px -9px #9d9d9d;
+      -moz-box-shadow: -10px -10px 43px -9px #9d9d9d;
+      box-shadow: -10px -10px 43px -9px #9d9d9d;
+      -moz-transition: all 0.5s ease;
+      -o-transition: all 0.5s ease;
+      -webkit-transition: all 0.5s ease;
+      transition: all 0.5s ease; }
+      div#gallery div.makeup-pallete#box:hover p {
+        opacity: 0;
+        -moz-transition: all 0.5s ease;
+        -o-transition: all 0.5s ease;
+        -webkit-transition: all 0.5s ease;
+        transition: all 0.5s ease; }
+    div#gallery div.makeup-pallete#box p {
+      font-size: 16.6666666667px;
+      text-align: center;
+      line-height: 50px;
+      font-weight: bold;
+      font-family: 'Montserrat', sans-serif;
+      color: black;
+      -moz-transition: all 0.5s ease;
+      -o-transition: all 0.5s ease;
+      -webkit-transition: all 0.5s ease;
+      transition: all 0.5s ease; }
+  div#gallery div.makeup-pallete {
+    display: inline-block;
+    position: relative;
+    border-radius: 10px;
+    margin-top: 10px;
+    -webkit-box-shadow: inset 0px 0px 40px 2px rgba(0, 0, 0, 0.43);
+    -moz-box-shadow: inset 0px 0px 40px 2px rgba(0, 0, 0, 0.43);
+    box-shadow: inset 0px 0px 40px 2px rgba(0, 0, 0, 0.43); }
+    div#gallery div.makeup-pallete #color1 {
+      width: 50px;
+      height: 50px;
+      background-color: #ecc19d;
+      margin-left: 10px; }
+    div#gallery div.makeup-pallete #color2 {
+      float: right;
+      width: 50px;
+      height: 110px;
+      background-color: #cd853f;
+      margin-right: 10px; }
+    div#gallery div.makeup-pallete #color3 {
+      margin-top: 10px;
+      margin-left: 10px;
+      width: 50px;
+      height: 50px;
+      background-color: #624223; }
+    div#gallery div.makeup-pallete:hover #color1 {
+      -moz-transition: all 0.5s ease;
+      -o-transition: all 0.5s ease;
+      -webkit-transition: all 0.5s ease;
+      transition: all 0.5s ease;
+      background: url("https://i.ytimg.com/vi/ZJ_5S_2z2OM/maxresdefault.jpg") no-repeat center;
+      background-size: cover; }
+    div#gallery div.makeup-pallete:hover #color2 {
+      -moz-transition: all 0.5s ease;
+      -o-transition: all 0.5s ease;
+      -webkit-transition: all 0.5s ease;
+      transition: all 0.5s ease;
+      background: url("https://cdn-ofuxico.akamaized.net/img/upload/noticias/2017/01/22/gey_284981_36.jpg") no-repeat center;
+      background-size: cover; }
+    div#gallery div.makeup-pallete:hover #color3 {
+      -moz-transition: all 0.5s ease;
+      -o-transition: all 0.5s ease;
+      -webkit-transition: all 0.5s ease;
+      transition: all 0.5s ease;
+      background: url("https://http2.mlstatic.com/curso-de-maquiagem-para-pele-negra-D_NQ_NP_951883-MLB30231496817_052019-F.jpg") no-repeat center;
+      background-size: 200%; }
 
 /*# sourceMappingURL=style.css.map */

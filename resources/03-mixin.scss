@@ -1,0 +1,23 @@
+@mixin transition($transition...) {
+  -moz-transition:    $transition;
+  -o-transition:      $transition;
+  -webkit-transition: $transition;
+  transition:         $transition;
+}
+
+@mixin boxShadow($property) {
+  -webkit-box-shadow: $property;
+  -moz-box-shadow: $property;
+  box-shadow: $property;
+}
+
+@mixin perspective($property) {
+  border-right: $property;
+  border-bottom: $property;
+}
+
+@mixin rotate($property) {
+  -webkit-transform: rotate($property);
+  -ms-transform: rotate($property);
+  transform: rotate($property);
+}
