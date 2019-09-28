@@ -80,13 +80,9 @@ $radius: 10px;
 $margin: 10px;
 
 div#gallery{
-  position: relative;
-  margin: auto;
-  width: 2*$size + 3*$margin;
-  height: 2*$size + 3*$margin;
-  cursor: pointer;
 
   div.makeup-pallete#box{
+    cursor: pointer;
     background: rgb(0,0,0);
     background: linear-gradient(-45deg, black 0%, #151515 39%, black 65%, #332a23 100%);
     position:relative;
