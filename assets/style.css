@@ -258,7 +258,7 @@ video.video {
 .split-lists .split-list ul li {
   font-size: 16px;
   line-height: 40px;
-  margin-bottom: 12px;
+  margin-bottom: 0px;
   -webkit-transition-duration: 0.6s;
   transition-duration: 0.6s; }
   .split-lists .split-list ul li:hover {
@@ -310,6 +310,7 @@ figure.pic {
 /* Object style */
 div#gallery div.makeup-pallete#box {
   cursor: pointer;
+  margin-top: 5px;
   background: black;
   background: linear-gradient(-45deg, black 0%, #151515 39%, black 65%, #332a23 100%);
   position: relative;
@@ -329,11 +330,8 @@ div#gallery div.makeup-pallete#box {
     -webkit-transform: rotate(0deg);
     -ms-transform: rotate(0deg);
     transform: rotate(0deg);
-    border-right: none;
-    border-bottom: none;
-    -webkit-box-shadow: -10px -10px 43px -9px #9d9d9d;
-    -moz-box-shadow: -10px -10px 43px -9px #9d9d9d;
-    box-shadow: -10px -10px 43px -9px #9d9d9d;
+    border-right: solid 3px #010101;
+    border-bottom: solid 3px #010101;
     -moz-transition: all 0.5s ease;
     -o-transition: all 0.5s ease;
     -webkit-transition: all 0.5s ease;
