@@ -122,7 +122,7 @@ body.page-template-page-fullsingle-split {
     background-size: cover; }
     @media (max-width: 800px) {
       .fs-split .split-image {
-        height: 80vh;
+        height: 100vh;
         width: 100%; } }
   .fs-split .split-content {
     width: 50%;
@@ -399,5 +399,16 @@ div#gallery div.makeup-pallete {
     transition: all 0.5s ease;
     background: url("https://http2.mlstatic.com/curso-de-maquiagem-para-pele-negra-D_NQ_NP_951883-MLB30231496817_052019-F.jpg") no-repeat center;
     background-size: 200%; }
+
+/* Responsive details */
+@media (max-width: 500px) {
+  div.split-lists h3 {
+    padding: 5px 0px;
+    text-align: center;
+    width: 100%;
+    background-color: #1a1a1a; }
+  div.split-lists div#box {
+    margin: 0 auto;
+    display: block; } }
 
 /*# sourceMappingURL=style.css.map */

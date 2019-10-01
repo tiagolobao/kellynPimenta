@@ -158,3 +158,20 @@ div#gallery{
 
   }
 }
+
+
+/* Responsive details */
+@media (max-width: $bp-mobile ) {
+  div.split-lists{
+    h3{
+      padding: 5px 0px;
+      text-align: center;
+      width: 100%;
+      background-color: #1a1a1a;
+    }
+    div#box{
+      margin: 0 auto;
+      display: block;
+    }
+  }
+}
