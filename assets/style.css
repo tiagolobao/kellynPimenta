@@ -259,6 +259,7 @@ video.video {
   font-size: 16px;
   line-height: 40px;
   margin-bottom: 0px;
+  color: #848d96;
   -webkit-transition-duration: 0.6s;
   transition-duration: 0.6s; }
   .split-lists .split-list ul li:hover {
@@ -410,5 +411,11 @@ div#gallery div.makeup-pallete {
   div.split-lists div#box {
     margin: 0 auto;
     display: block; } }
+.hideOpacity {
+  opacity: 0;
+  -moz-transition: all 1s ease;
+  -o-transition: all 1s ease;
+  -webkit-transition: all 1s ease;
+  transition: all 1s ease; }
 
 /*# sourceMappingURL=style.css.map */
