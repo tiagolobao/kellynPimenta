@@ -183,3 +183,7 @@ div#gallery{
   opacity: 0;
   @include transition(all 1s ease);
 }
+
+p.hide-text{
+  display: none;
+}
