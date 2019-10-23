@@ -1,0 +1,32 @@
+{
+  "name": "kellynpimenta",
+  "version": "1.0.0",
+  "description": "webSite Kellyn Pimenta Makeup",
+  "main": "gulpfile.js",
+  "dependencies": {},
+  "devDependencies": {
+    "gulp": "^4.0.2",
+    "gulp-autoprefixer": "^7.0.1",
+    "gulp-cssnano": "^2.1.3",
+    "gulp-plumber": "^1.2.1",
+    "gulp-sass": "^4.0.2",
+    "gulp-sourcemaps": "^2.6.5",
+    "gulp-watch": "^5.0.1"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tiagolobao/kellynPimenta.git"
+  },
+  "keywords": [
+    "makeup"
+  ],
+  "author": "Tiago Britto Lobão",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/tiagolobao/kellynPimenta/issues"
+  },
+  "homepage": "https://github.com/tiagolobao/kellynPimenta#readme"
+}

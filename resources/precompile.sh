@@ -1,3 +1,0 @@
-#!/bin/bash
-echo precompiling...
-sass style.scss:../assets/style.css
