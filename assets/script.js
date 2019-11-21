@@ -11,7 +11,7 @@
   // });
 
   document.querySelector('#gallery').addEventListener('click',function(){
-    location.href = 'https://www.instagram.com/kellynpimentaoliveira/';
+    location.href = 'https://www.instagram.com/kellynpimentamakeup/';
   });
 
   window.showText = function() {
